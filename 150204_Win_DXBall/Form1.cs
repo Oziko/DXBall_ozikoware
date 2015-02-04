@@ -16,5 +16,12 @@ namespace _150204_Win_DXBall
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Start();
+            misket.Left ++;
+            misket.Top ++;
+        }
     }
 }
