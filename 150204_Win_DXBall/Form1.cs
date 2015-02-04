@@ -16,7 +16,6 @@ namespace _150204_Win_DXBall
         {
             InitializeComponent();
         }
-
         int x = 2;
         int y = 2;
 
@@ -26,12 +25,12 @@ namespace _150204_Win_DXBall
             misket.Left += x;
             misket.Top += y;
 
-            if(misket.Left <= 0 | misket.Right >= this.Width)
+            if(misket.Left <= 0 || misket.Right >= this.Width)
             {
                 x *= -1;
             }
 
-            if(misket.Top <= 0 | misket.Bottom >= this.Height)
+            if(misket.Top <= 0 || misket.Bottom >= this.Height)
             {
                 y *= -1;
             }
