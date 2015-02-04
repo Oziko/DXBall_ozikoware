@@ -38,7 +38,7 @@
             // 
             this.misket.AutoSize = true;
             this.misket.Checked = true;
-            this.misket.Location = new System.Drawing.Point(126, 105);
+            this.misket.Location = new System.Drawing.Point(172, 125);
             this.misket.Name = "misket";
             this.misket.Size = new System.Drawing.Size(14, 13);
             this.misket.TabIndex = 0;
@@ -47,13 +47,15 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 33;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 268);
+            this.ClientSize = new System.Drawing.Size(407, 352);
             this.Controls.Add(this.misket);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";

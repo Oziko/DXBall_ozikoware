@@ -20,8 +20,8 @@ namespace _150204_Win_DXBall
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Start();
-            misket.Left ++;
-            misket.Top ++;
+            misket.Left += 2;
+            misket.Top += 2;
         }
     }
 }
