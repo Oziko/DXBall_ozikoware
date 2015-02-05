@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _150204_Win_DXBall
@@ -25,12 +18,12 @@ namespace _150204_Win_DXBall
             misket.Left += x;
             misket.Top += y;
 
-            if(misket.Left <= 0 || misket.Right >= this.Width)
+            if(misket.Left <= 0 || misket.Right >= ClientSize.Width)
             {
                 x *= -1;
             }
 
-            if(misket.Top <= 0 || misket.Bottom >= this.Height)
+            if(misket.Top <= 0 || misket.Bottom >= ClientSize.Height)
             {
                 y *= -1;
             }
